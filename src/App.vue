@@ -25,7 +25,7 @@ interact('.draggable').draggable({
   }
 })
 
-function dragMoveListener(event) {
+function dragMoveListener(event: any) {
   var target = event.target
 
   var x = (parseFloat(target.getAttribute('data-x')) || target.style.translate) + event.dx
