@@ -44,7 +44,7 @@ function dragMoveListener(event: any) {
       v-show="isWasFirstTouch === false"
       @click="onClickFirstTouch()"
     >
-      <img src="./assets/first.png" />
+      <img src="./assets/first.webp" />
     </div>
   </transition>
 
@@ -53,7 +53,7 @@ function dragMoveListener(event: any) {
     data-x="30"
     data-y="-35"
     class="draggable sticker one"
-    src="./assets/stickers/1.png"
+    src="./assets/stickers/1.webp"
     alt="sticker"
   />
   <img
@@ -61,7 +61,7 @@ function dragMoveListener(event: any) {
     data-x="269"
     data-y="-743"
     class="draggable sticker two"
-    src="./assets/stickers/2.png"
+    src="./assets/stickers/2.webp"
     alt="sticker"
   />
   <img
@@ -69,7 +69,7 @@ function dragMoveListener(event: any) {
     data-x="-131"
     data-y="-848"
     class="draggable sticker three"
-    src="./assets/stickers/3.png"
+    src="./assets/stickers/3.webp"
     alt="sticker"
   />
   <img
@@ -77,7 +77,7 @@ function dragMoveListener(event: any) {
     data-x="102"
     data-y="-1244"
     class="draggable sticker four"
-    src="./assets/stickers/4.png"
+    src="./assets/stickers/4.webp"
     alt="sticker"
   />
   <img
@@ -85,7 +85,7 @@ function dragMoveListener(event: any) {
     data-x="291"
     data-y="-1692"
     class="draggable sticker five"
-    src="./assets/stickers/5.png"
+    src="./assets/stickers/5.webp"
     alt="sticker"
   />
   <img
@@ -93,7 +93,7 @@ function dragMoveListener(event: any) {
     data-x="-160"
     data-y="-2195"
     class="draggable sticker six"
-    src="./assets/stickers/6.png"
+    src="./assets/stickers/6.webp"
     alt="sticker"
   />
   <img
@@ -101,7 +101,7 @@ function dragMoveListener(event: any) {
     data-x="337"
     data-y="-3291"
     class="draggable sticker seven"
-    src="./assets/stickers/7.png"
+    src="./assets/stickers/7.webp"
     alt="sticker"
   />
   <img
@@ -109,14 +109,14 @@ function dragMoveListener(event: any) {
     data-x="-128"
     data-y="-4240"
     class="draggable sticker eight"
-    src="./assets/stickers/8.png"
+    src="./assets/stickers/8.webp"
     alt="sticker"
   />
   <div style="position: absolute; top: 0; z-index: 1">
     <button @click="onClickOpenSite" action="https://promo.danissimo-club.ru/" class="about">
       ПОДРОБНЕЕ ОБ АКЦИИ
     </button>
-    <img src="./assets/bg.png" />
+    <img src="./assets/bg.webp" />
   </div>
 </template>
 
