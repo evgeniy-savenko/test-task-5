@@ -1,6 +1,7 @@
 body {
   overflow: hidden;
   margin: 0 auto;
+  width: 400px;
 }
 
 /* @media (max-width: 767px) {

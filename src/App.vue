@@ -57,7 +57,7 @@ function dragMoveListener(event: any) {
     />
   </transition>
 
-  <div style="width: 100vh; height: 100vh">
+  <div style="position: relative; width: 100vh; height: 100vh">
     <img
       id="drag-1"
       data-x="32"
