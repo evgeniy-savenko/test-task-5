@@ -1,7 +1,16 @@
-#app {
-  width: 800px;
+body {
   overflow: hidden;
-  height: 1200px;
-  background-color: f7f7f7;
   margin: 0 auto;
+}
+
+/* @media (max-width: 767px) {
+  body {
+    display: none;
+  }
+} */
+
+#app {
+  background-color: #f7f7f7;
+  overflow: hidden;
+  width: 400px;
 }
