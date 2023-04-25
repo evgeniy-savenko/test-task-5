@@ -53,7 +53,7 @@ function dragMoveListener(event: any) {
         object-fit: contain;
         top: 250px;
       "
-      src="./assets/test.png"
+      src="./assets/test.webp"
     />
   </transition>
 
@@ -125,10 +125,10 @@ function dragMoveListener(event: any) {
     <button @click="onClickOpenSite" action="https://promo.danissimo-club.ru/" class="about">
       ПОДРОБНЕЕ ОБ АКЦИИ
     </button>
-    <img style="width: 400px; object-fit: cover" src="./assets/bg.png" />
+    <img style="width: 400px; object-fit: cover" src="./assets/bg.webp" />
     <img
       style="left: 0px; position: absolute; bottom: 0px; width: 400px; object-fit: cover"
-      src="./assets/acc.png"
+      src="./assets/acc.webp"
     />
   </div>
 </template>
